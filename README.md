@@ -99,6 +99,3 @@ GitHub Copilot drafted the first skeleton for each script, suggested Polars grou
 
 ---
 
-### Questions?
-
-Open an issue or ping me on Teams—happy to help you reproduce any of the results.
