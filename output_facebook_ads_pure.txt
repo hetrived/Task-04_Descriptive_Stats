@@ -1,0 +1,263 @@
+Descriptive Statistics for: 2024_fb_ads_president_scored_anon.csv
+============================================================
+
+Column: page_id
+  Unique Values: 4475
+  Most Frequent: 4d66f5853f0365dba032a87704a634f023d15babde973bb7a284ed8cd2707b2d (55503 times)
+
+Column: ad_id
+  Unique Values: 246745
+  Most Frequent: 0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148f8d72fc (1 times)
+
+Column: ad_creation_time
+  Unique Values: 547
+  Most Frequent: 2024-10-27 (8619 times)
+
+Column: bylines
+  Unique Values: 3790
+  Most Frequent: HARRIS FOR PRESIDENT (49788 times)
+
+Column: currency
+  Unique Values: 18
+  Most Frequent: USD (246599 times)
+
+Column: delivery_by_region
+  Unique Values: 141122
+  Most Frequent: {} (30989 times)
+
+Column: demographic_distribution
+  Unique Values: 215622
+  Most Frequent: {} (30989 times)
+
+Column: estimated_audience_size
+  Count: 246745
+  Mean: 556462.86
+  Min: 0.0
+  Max: 1000001.0
+  Std Dev: 409864.76
+
+Column: estimated_impressions
+  Count: 246745
+  Mean: 45601.53
+  Min: 499.0
+  Max: 1000000.0
+  Std Dev: 136790.77
+
+Column: estimated_spend
+  Count: 246745
+  Mean: 1061.29
+  Min: 49.0
+  Max: 474999.0
+  Std Dev: 4992.56
+
+Column: publisher_platforms
+  Unique Values: 9
+  Most Frequent: ['facebook', 'instagram'] (214434 times)
+
+Column: illuminating_scored_message
+  Unique Values: 26338
+  Most Frequent: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 (5972 times)
+
+Column: illuminating_mentions
+  Unique Values: 278
+  Most Frequent: [] (73205 times)
+
+Column: scam_illuminating
+  Count: 246745
+  Mean: 0.07
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.26
+
+Column: election_integrity_Truth_illuminating
+  Count: 246745
+  Mean: 0.05
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.22
+
+Column: advocacy_msg_type_illuminating
+  Count: 246745
+  Mean: 0.55
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.5
+
+Column: issue_msg_type_illuminating
+  Count: 246745
+  Mean: 0.38
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.49
+
+Column: attack_msg_type_illuminating
+  Count: 246745
+  Mean: 0.27
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.44
+
+Column: image_msg_type_illuminating
+  Count: 246745
+  Mean: 0.22
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.42
+
+Column: cta_msg_type_illuminating
+  Count: 246745
+  Mean: 0.57
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.49
+
+Column: engagement_cta_subtype_illuminating
+  Count: 246745
+  Mean: 0.12
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.33
+
+Column: fundraising_cta_subtype_illuminating
+  Count: 246745
+  Mean: 0.23
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.42
+
+Column: voting_cta_subtype_illuminating
+  Count: 246745
+  Mean: 0.14
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.35
+
+Column: covid_topic_illuminating
+  Count: 246745
+  Mean: 0.02
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.16
+
+Column: economy_topic_illuminating
+  Count: 246745
+  Mean: 0.12
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.33
+
+Column: education_topic_illuminating
+  Count: 246745
+  Mean: 0.01
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.12
+
+Column: environment_topic_illuminating
+  Count: 246745
+  Mean: 0.02
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.14
+
+Column: foreign_policy_topic_illuminating
+  Count: 246745
+  Mean: 0.01
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.07
+
+Column: governance_topic_illuminating
+  Count: 246745
+  Mean: 0.03
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.16
+
+Column: health_topic_illuminating
+  Count: 246745
+  Mean: 0.11
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.31
+
+Column: immigration_topic_illuminating
+  Count: 246745
+  Mean: 0.03
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.18
+
+Column: lgbtq_issues_topic_illuminating
+  Count: 246745
+  Mean: 0.0
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.06
+
+Column: military_topic_illuminating
+  Count: 246745
+  Mean: 0.0
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.05
+
+Column: race_and_ethnicity_topic_illuminating
+  Count: 246745
+  Mean: 0.01
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.11
+
+Column: safety_topic_illuminating
+  Count: 246745
+  Mean: 0.03
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.18
+
+Column: social_and_cultural_topic_illuminating
+  Count: 246745
+  Mean: 0.11
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.31
+
+Column: technology_and_privacy_topic_illuminating
+  Count: 246745
+  Mean: 0.0
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.03
+
+Column: womens_issue_topic_illuminating
+  Count: 246745
+  Mean: 0.08
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.27
+
+Column: incivility_illuminating
+  Count: 246745
+  Mean: 0.19
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.39
+
+Column: freefair_illuminating
+  Count: 246745
+  Mean: 0.01
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.08
+
+Column: fraud_illuminating
+  Count: 246745
+  Mean: 0.0
+  Min: 0.0
+  Max: 1.0
+  Std Dev: 0.05
+
+Grouped Summary: Grouped by 'page_id' on column 'page_id'
+
+Grouped Summary: Grouped by 'page_id' and 'ad_id' on column 'page_id'

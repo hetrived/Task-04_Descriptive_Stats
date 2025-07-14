@@ -1,0 +1,159 @@
+===== Polars Descriptive Stats (Facebook Ads) =====
+
+--- Columns in Dataset ---
+
+page_id, ad_id, ad_creation_time, bylines, currency, delivery_by_region, demographic_distribution, estimated_audience_size, estimated_impressions, estimated_spend, publisher_platforms, illuminating_scored_message, illuminating_mentions, scam_illuminating, election_integrity_Truth_illuminating, advocacy_msg_type_illuminating, issue_msg_type_illuminating, attack_msg_type_illuminating, image_msg_type_illuminating, cta_msg_type_illuminating, engagement_cta_subtype_illuminating, fundraising_cta_subtype_illuminating, voting_cta_subtype_illuminating, covid_topic_illuminating, economy_topic_illuminating, education_topic_illuminating, environment_topic_illuminating, foreign_policy_topic_illuminating, governance_topic_illuminating, health_topic_illuminating, immigration_topic_illuminating, lgbtq_issues_topic_illuminating, military_topic_illuminating, race_and_ethnicity_topic_illuminating, safety_topic_illuminating, social_and_cultural_topic_illuminating, technology_and_privacy_topic_illuminating, womens_issue_topic_illuminating, incivility_illuminating, freefair_illuminating, fraud_illuminating
+
+--- Overall describe() ---
+
+shape: (9, 42)
+┌────────────┬──────────────────┬──────────────────┬──────────────────┬───┬──────────────────┬──────────────────┬─────────────────┬─────────────────┐
+│ statistic  ┆ page_id          ┆ ad_id            ┆ ad_creation_time ┆ … ┆ womens_issue_top ┆ incivility_illum ┆ freefair_illumi ┆ fraud_illuminat │
+│ ---        ┆ ---              ┆ ---              ┆ ---              ┆   ┆ ic_illuminatin…  ┆ inating          ┆ nating          ┆ ing             │
+│ str        ┆ str              ┆ str              ┆ str              ┆   ┆ ---              ┆ ---              ┆ ---             ┆ ---             │
+│            ┆                  ┆                  ┆                  ┆   ┆ f64              ┆ f64              ┆ f64             ┆ f64             │
+╞════════════╪══════════════════╪══════════════════╪══════════════════╪═══╪══════════════════╪══════════════════╪═════════════════╪═════════════════╡
+│ count      ┆ 246745           ┆ 246745           ┆ 246745           ┆ … ┆ 246745.0         ┆ 246745.0         ┆ 246745.0        ┆ 246745.0        │
+│ null_count ┆ 0                ┆ 0                ┆ 0                ┆ … ┆ 0.0              ┆ 0.0              ┆ 0.0             ┆ 0.0             │
+│ mean       ┆ null             ┆ null             ┆ null             ┆ … ┆ 0.080909         ┆ 0.187526         ┆ 0.006416        ┆ 0.002638        │
+│ std        ┆ null             ┆ null             ┆ null             ┆ … ┆ 0.272697         ┆ 0.390334         ┆ 0.07984         ┆ 0.051297        │
+│ min        ┆ 0005687f4ac876c1 ┆ 0000a88a64484883 ┆ 2021-07-06       ┆ … ┆ 0.0              ┆ 0.0              ┆ 0.0             ┆ 0.0             │
+│            ┆ 35dda2bd5aa609…  ┆ df6ca1fabd357e…  ┆                  ┆   ┆                  ┆                  ┆                 ┆                 │
+│ 25%        ┆ null             ┆ null             ┆ null             ┆ … ┆ 0.0              ┆ 0.0              ┆ 0.0             ┆ 0.0             │
+│ 50%        ┆ null             ┆ null             ┆ null             ┆ … ┆ 0.0              ┆ 0.0              ┆ 0.0             ┆ 0.0             │
+│ 75%        ┆ null             ┆ null             ┆ null             ┆ … ┆ 0.0              ┆ 0.0              ┆ 0.0             ┆ 0.0             │
+│ max        ┆ fffd9545553ab18a ┆ fffffab6864bde31 ┆ 2024-11-05       ┆ … ┆ 1.0              ┆ 1.0              ┆ 1.0             ┆ 1.0             │
+│            ┆ b56d93b9029630…  ┆ aa57a40152b4a0…  ┆                  ┆   ┆                  ┆                  ┆                 ┆                 │
+└────────────┴──────────────────┴──────────────────┴──────────────────┴───┴──────────────────┴──────────────────┴─────────────────┴─────────────────┘
+
+--- Unique Values per Column ---
+
+page_id: 4475
+
+ad_id: 246745
+
+ad_creation_time: 547
+
+bylines: 3791
+
+currency: 18
+
+delivery_by_region: 141122
+
+demographic_distribution: 215622
+
+estimated_audience_size: 9
+
+estimated_impressions: 39
+
+estimated_spend: 44
+
+publisher_platforms: 9
+
+illuminating_scored_message: 26338
+
+illuminating_mentions: 278
+
+scam_illuminating: 2
+
+election_integrity_Truth_illuminating: 2
+
+advocacy_msg_type_illuminating: 2
+
+issue_msg_type_illuminating: 2
+
+attack_msg_type_illuminating: 2
+
+image_msg_type_illuminating: 2
+
+cta_msg_type_illuminating: 2
+
+engagement_cta_subtype_illuminating: 2
+
+fundraising_cta_subtype_illuminating: 2
+
+voting_cta_subtype_illuminating: 2
+
+covid_topic_illuminating: 2
+
+economy_topic_illuminating: 2
+
+education_topic_illuminating: 2
+
+environment_topic_illuminating: 2
+
+foreign_policy_topic_illuminating: 2
+
+governance_topic_illuminating: 2
+
+health_topic_illuminating: 2
+
+immigration_topic_illuminating: 2
+
+lgbtq_issues_topic_illuminating: 2
+
+military_topic_illuminating: 2
+
+race_and_ethnicity_topic_illuminating: 2
+
+safety_topic_illuminating: 2
+
+social_and_cultural_topic_illuminating: 2
+
+technology_and_privacy_topic_illuminating: 2
+
+womens_issue_topic_illuminating: 2
+
+incivility_illuminating: 2
+
+freefair_illuminating: 2
+
+fraud_illuminating: 2
+
+--- Top 5 Most-Frequent page_id ---
+
+shape: (5, 2)
+┌─────────────────────────────────┬───────┐
+│ page_id                         ┆ len   │
+│ ---                             ┆ ---   │
+│ str                             ┆ u32   │
+╞═════════════════════════════════╪═══════╡
+│ 4d66f5853f0365dba032a87704a634… ┆ 55503 │
+│ e3342051b60393770363ffc02946a0… ┆ 23988 │
+│ 4ade404186269ec62d2dd7d9e0ed5f… ┆ 14822 │
+│ 330b2f35ded2161e63fbb2b5c5bdae… ┆ 10461 │
+│ ec8ac6dc1cddc49972de2c31b62343… ┆ 9851  │
+└─────────────────────────────────┴───────┘
+
+--- Grouped by page_id (estimated_impressions) ---
+
+shape: (5, 5)
+┌─────────────────────────────────┬───────┬──────────────┬─────┬─────────┐
+│ page_id                         ┆ count ┆ mean         ┆ min ┆ max     │
+│ ---                             ┆ ---   ┆ ---          ┆ --- ┆ ---     │
+│ str                             ┆ u32   ┆ f64          ┆ i64 ┆ i64     │
+╞═════════════════════════════════╪═══════╪══════════════╪═════╪═════════╡
+│ 4d66f5853f0365dba032a87704a634… ┆ 55503 ┆ 53753.220655 ┆ 499 ┆ 1000000 │
+│ e3342051b60393770363ffc02946a0… ┆ 23988 ┆ 27904.25     ┆ 499 ┆ 1000000 │
+│ 4ade404186269ec62d2dd7d9e0ed5f… ┆ 14822 ┆ 56763.684523 ┆ 499 ┆ 1000000 │
+│ 330b2f35ded2161e63fbb2b5c5bdae… ┆ 10461 ┆ 42766.809865 ┆ 499 ┆ 1000000 │
+│ ec8ac6dc1cddc49972de2c31b62343… ┆ 9851  ┆ 33081.889757 ┆ 499 ┆ 1000000 │
+└─────────────────────────────────┴───────┴──────────────┴─────┴─────────┘
+
+--- Grouped by (page_id, ad_id) (estimated_impressions) ---
+
+shape: (5, 6)
+┌─────────────────────────────────┬─────────────────────────────────┬───────┬──────────┬────────┬────────┐
+│ page_id                         ┆ ad_id                           ┆ count ┆ mean     ┆ min    ┆ max    │
+│ ---                             ┆ ---                             ┆ ---   ┆ ---      ┆ ---    ┆ ---    │
+│ str                             ┆ str                             ┆ u32   ┆ f64      ┆ i64    ┆ i64    │
+╞═════════════════════════════════╪═════════════════════════════════╪═══════╪══════════╪════════╪════════╡
+│ 4d66f5853f0365dba032a87704a634… ┆ 948a3651e2bbd67fb03eaf5109bd1e… ┆ 1     ┆ 2499.0   ┆ 2499   ┆ 2499   │
+│ ec8ac6dc1cddc49972de2c31b62343… ┆ a41849088b58d99c6fb97d28ba80e7… ┆ 1     ┆ 499.0    ┆ 499    ┆ 499    │
+│ e3342051b60393770363ffc02946a0… ┆ 28b9e486f4ccc30d9e82b2b030cc77… ┆ 1     ┆ 499.0    ┆ 499    ┆ 499    │
+│ d46be6146feba33b5fd538ae85ded0… ┆ 13ad0d032e8a0847a46b3f8e832ce5… ┆ 1     ┆ 112499.0 ┆ 112499 ┆ 112499 │
+│ ec8ac6dc1cddc49972de2c31b62343… ┆ 2ed32a36b9cef44836ecb7e968c61d… ┆ 1     ┆ 12499.0  ┆ 12499  ┆ 12499  │
+└─────────────────────────────────┴─────────────────────────────────┴───────┴──────────┴────────┴────────┘
+
+===== Script Completed =====
+

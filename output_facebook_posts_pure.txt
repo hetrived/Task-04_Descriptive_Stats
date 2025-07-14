@@ -1,0 +1,343 @@
+Descriptive Statistics for: 2024_fb_posts_president_scored_anon.csv
+============================================================
+
+Column: Facebook_Id
+  Unique Values: 21
+  Most Frequent: 32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064 (9013 times)
+
+Column: post_id
+  Unique Values: 19009
+  Most Frequent: 8570b69695e00d8f06b12398ed525497e1712b5369c6fc2138fe98f69811c138 (1 times)
+
+Column: Page Category
+  Unique Values: 6
+  Most Frequent: PERSON (9453 times)
+
+Column: Page Admin Top Country
+  Unique Values: 1
+  Most Frequent: US (16280 times)
+
+Column: Post Created
+  Unique Values: 18951
+  Most Frequent: 2023-11-14 11:11:44 EST (2 times)
+
+Column: Post Created Date
+  Unique Values: 425
+  Most Frequent: 2024-10-31 (103 times)
+
+Column: Post Created Time
+  Unique Values: 16102
+  Most Frequent: 19:42:00 (7 times)
+
+Column: Type
+  Unique Values: 9
+  Most Frequent: Link (7404 times)
+
+Column: Total Interactions
+  Unique Values: 5665
+  Most Frequent: 23 (115 times)
+
+Column: Likes
+  Count: 19009
+  Mean:  2377.70
+  Min:   0.0
+  Max:   351979.0
+  Std Dev: 11253.47
+
+Column: Comments
+  Count: 19009
+  Mean:  901.58
+  Min:   0.0
+  Max:   93872.0
+  Std Dev: 3681.98
+
+Column: Shares
+  Count: 19009
+  Mean:  320.54
+  Min:   0.0
+  Max:   76150.0
+  Std Dev: 1722.16
+
+Column: Love
+  Count: 19009
+  Mean:  413.88
+  Min:   0.0
+  Max:   244482.0
+  Std Dev: 3730.94
+
+Column: Wow
+  Count: 19009
+  Mean:  5.87
+  Min:   0.0
+  Max:   4345.0
+  Std Dev: 52.95
+
+Column: Haha
+  Count: 19009
+  Mean:  105.72
+  Min:   0.0
+  Max:   99276.0
+  Std Dev: 942.03
+
+Column: Sad
+  Count: 19009
+  Mean:  10.17
+  Min:   0.0
+  Max:   56111.0
+  Std Dev: 418.33
+
+Column: Angry
+  Count: 19009
+  Mean:  20.06
+  Min:   0.0
+  Max:   11814.0
+  Std Dev: 156.02
+
+Column: Care
+  Count: 19009
+  Mean:  34.93
+  Min:   0.0
+  Max:   85236.0
+  Std Dev: 790.10
+
+Column: Video Share Status
+  Unique Values: 3
+  Most Frequent: owned (3100 times)
+
+Column: Is Video Owner?
+  Unique Values: 3
+  Most Frequent: - (13280 times)
+
+Column: Post Views
+  Count: 16544
+  Mean:  6485.06
+  Min:   0.0
+  Max:   4276477.0
+  Std Dev: 90392.96
+
+Column: Total Views
+  Count: 16544
+  Mean:  7461.85
+  Min:   0.0
+  Max:   4462155.0
+  Std Dev: 95976.28
+
+Column: Total Views For All Crossposts
+  Count: 16544
+  Mean:  3555.94
+  Min:   0.0
+  Max:   4499458.0
+  Std Dev: 88094.05
+
+Column: Video Length
+  Unique Values: 774
+  Most Frequent: 00:00:30 (83 times)
+
+Column: Sponsor Id
+  Unique Values: 0
+  Most Frequent:  (0 times)
+
+Column: Sponsor Name
+  Unique Values: 0
+  Most Frequent:  (0 times)
+
+Column: Sponsor Category
+  Unique Values: 0
+  Most Frequent:  (0 times)
+
+Column: Overperforming Score
+  Unique Values: 2008
+  Most Frequent: -1.03 (80 times)
+
+Column: illuminating_scored_messageelection_integrity_Truth_illuminating
+  Unique Values: 0
+  Most Frequent:  (0 times)
+
+Column: advocacy_msg_type_illuminating
+  Count: 19009
+  Mean:  0.55
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.50
+
+Column: issue_msg_type_illuminating
+  Count: 19009
+  Mean:  0.46
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.50
+
+Column: attack_msg_type_illuminating
+  Count: 19009
+  Mean:  0.22
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.41
+
+Column: image_msg_type_illuminating
+  Count: 19009
+  Mean:  0.15
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.36
+
+Column: cta_msg_type_illuminating
+  Count: 19009
+  Mean:  0.13
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.34
+
+Column: engagement_cta_subtype_illuminating
+  Count: 19009
+  Mean:  0.09
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.29
+
+Column: fundraising_cta_subtype_illuminating
+  Count: 19009
+  Mean:  0.02
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.13
+
+Column: voting_cta_subtype_illuminating
+  Count: 19009
+  Mean:  0.02
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.15
+
+Column: covid_topic_illuminating
+  Count: 19009
+  Mean:  0.05
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.22
+
+Column: economy_topic_illuminating
+  Count: 19009
+  Mean:  0.09
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.29
+
+Column: education_topic_illuminating
+  Count: 19009
+  Mean:  0.01
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.12
+
+Column: environment_topic_illuminating
+  Count: 19009
+  Mean:  0.02
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.15
+
+Column: foreign_policy_topic_illuminating
+  Count: 19009
+  Mean:  0.04
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.19
+
+Column: governance_topic_illuminating
+  Count: 19009
+  Mean:  0.03
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.17
+
+Column: health_topic_illuminating
+  Count: 19009
+  Mean:  0.05
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.22
+
+Column: immigration_topic_illuminating
+  Count: 19009
+  Mean:  0.04
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.20
+
+Column: lgbtq_issues_topic_illuminating
+  Count: 19009
+  Mean:  0.00
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.06
+
+Column: military_topic_illuminating
+  Count: 19009
+  Mean:  0.01
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.07
+
+Column: race_and_ethnicity_topic_illuminating
+  Count: 19009
+  Mean:  0.02
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.15
+
+Column: safety_topic_illuminating
+  Count: 19009
+  Mean:  0.03
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.18
+
+Column: social_and_cultural_topic_illuminating
+  Count: 19009
+  Mean:  0.06
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.24
+
+Column: technology_and_privacy_topic_illuminating
+  Count: 19009
+  Mean:  0.00
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.05
+
+Column: womens_issue_topic_illuminating
+  Count: 19009
+  Mean:  0.03
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.16
+
+Column: incivility_illuminating
+  Count: 19009
+  Mean:  0.13
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.33
+
+Column: scam_illuminating
+  Count: 18060
+  Mean:  0.02
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.14
+
+Column: freefair_illuminating
+  Count: 19009
+  Mean:  0.00
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.05
+
+Column: fraud_illuminating
+  Count: 19009
+  Mean:  0.01
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.09

@@ -1,0 +1,292 @@
+Descriptive Statistics for: 2024_tw_posts_president_scored_anon.csv
+============================================================
+
+Column: id
+  Unique Values: 27304
+  Most Frequent: cc46051622b8a9c1b883a3bbf12c640b12ac1cbdc7f48a773b6cc2a65f03aa2d (1 times)
+
+Column: url
+  Unique Values: 27304
+  Most Frequent: f70a206472e9deaf6e313297c1efb891729ced346a0aeb34e16935d78f74b937 (1 times)
+
+Column: source
+  Unique Values: 14
+  Most Frequent: Twitter Web App (14930 times)
+
+Column: retweetCount
+  Count: 27304
+  Mean:  1322.06
+  Min:   0.0
+  Max:   144615.0
+  Std Dev: 3405.00
+
+Column: replyCount
+  Count: 27304
+  Mean:  1063.79
+  Min:   0.0
+  Max:   121270.0
+  Std Dev: 3174.98
+
+Column: likeCount
+  Count: 27304
+  Mean:  6913.69
+  Min:   0.0
+  Max:   915221.0
+  Std Dev: 21590.31
+
+Column: quoteCount
+  Count: 27304
+  Mean:  128.08
+  Min:   0.0
+  Max:   123320.0
+  Std Dev: 1131.53
+
+Column: viewCount
+  Count: 27304
+  Mean:  507084.73
+  Min:   5.0
+  Max:   333502775.0
+  Std Dev: 3212173.99
+
+Column: createdAt
+  Unique Values: 27014
+  Most Frequent: 2023-10-06 04:55:21 (4 times)
+
+Column: lang
+  Unique Values: 12
+  Most Frequent: en (27281 times)
+
+Column: bookmarkCount
+  Count: 27304
+  Mean:  136.21
+  Min:   0.0
+  Max:   42693.0
+  Std Dev: 712.58
+
+Column: isReply
+  Unique Values: 2
+  Most Frequent: False (23930 times)
+
+Column: isRetweet
+  Unique Values: 1
+  Most Frequent: False (27304 times)
+
+Column: isQuote
+  Unique Values: 2
+  Most Frequent: False (24064 times)
+
+Column: isConversationControlled
+  Unique Values: 2
+  Most Frequent: False (27296 times)
+
+Column: quoteId
+  Unique Values: 3159
+  Most Frequent: 1.711730672279122e+18 (5 times)
+
+Column: inReplyToId
+  Unique Values: 3309
+  Most Frequent: 1.7444996006715807e+18 (6 times)
+
+Column: month_year
+  Unique Values: 15
+  Most Frequent: 2024-10 (3586 times)
+
+Column: illuminating_scored_message
+  Unique Values: 27136
+  Most Frequent: 36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd (21 times)
+
+Column: election_integrity_Truth_illuminating
+  Count: 26034
+  Mean:  0.04
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.19
+
+Column: advocacy_msg_type_illuminating
+  Count: 26034
+  Mean:  0.56
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.50
+
+Column: issue_msg_type_illuminating
+  Count: 26034
+  Mean:  0.51
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.50
+
+Column: attack_msg_type_illuminating
+  Count: 26034
+  Mean:  0.31
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.46
+
+Column: image_msg_type_illuminating
+  Count: 26034
+  Mean:  0.23
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.42
+
+Column: cta_msg_type_illuminating
+  Count: 26034
+  Mean:  0.11
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.31
+
+Column: engagement_cta_subtype_illuminating
+  Count: 26034
+  Mean:  0.07
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.25
+
+Column: fundraising_cta_subtype_illuminating
+  Count: 26034
+  Mean:  0.01
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.09
+
+Column: voting_cta_subtype_illuminating
+  Count: 26034
+  Mean:  0.02
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.13
+
+Column: covid_topic_illuminating
+  Count: 26034
+  Mean:  0.01
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.09
+
+Column: economy_topic_illuminating
+  Count: 26034
+  Mean:  0.16
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.37
+
+Column: education_topic_illuminating
+  Count: 26034
+  Mean:  0.02
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.13
+
+Column: environment_topic_illuminating
+  Count: 26034
+  Mean:  0.03
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.17
+
+Column: foreign_policy_topic_illuminating
+  Count: 26034
+  Mean:  0.04
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.20
+
+Column: governance_topic_illuminating
+  Count: 26034
+  Mean:  0.02
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.15
+
+Column: health_topic_illuminating
+  Count: 26034
+  Mean:  0.06
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.23
+
+Column: immigration_topic_illuminating
+  Count: 26034
+  Mean:  0.07
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.25
+
+Column: lgbtq_issues_topic_illuminating
+  Count: 26034
+  Mean:  0.00
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.06
+
+Column: military_topic_illuminating
+  Count: 26034
+  Mean:  0.01
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.10
+
+Column: race_and_ethnicity_topic_illuminating
+  Count: 26034
+  Mean:  0.02
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.12
+
+Column: safety_topic_illuminating
+  Count: 26034
+  Mean:  0.04
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.19
+
+Column: social_and_cultural_topic_illuminating
+  Count: 26034
+  Mean:  0.05
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.22
+
+Column: technology_and_privacy_topic_illuminating
+  Count: 26034
+  Mean:  0.00
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.05
+
+Column: womens_issue_topic_illuminating
+  Count: 26034
+  Mean:  0.02
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.15
+
+Column: incivility_illuminating
+  Count: 26034
+  Mean:  0.18
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.38
+
+Column: scam_illuminating
+  Count: 26034
+  Mean:  0.01
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.11
+
+Column: freefair_illuminating
+  Count: 27304
+  Mean:  0.00
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.04
+
+Column: fraud_illuminating
+  Count: 27304
+  Mean:  0.00
+  Min:   0.0
+  Max:   1.0
+  Std Dev: 0.05

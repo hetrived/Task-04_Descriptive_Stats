@@ -1,0 +1,144 @@
+===== Polars Descriptive Stats (Facebook Posts) =====
+
+--- Columns in Dataset ---
+
+Facebook_Id, post_id, Page Category, Page Admin Top Country, Post Created, Post Created Date, Post Created Time, Type, Total Interactions, Likes, Comments, Shares, Love, Wow, Haha, Sad, Angry, Care, Video Share Status, Is Video Owner?, Post Views, Total Views, Total Views For All Crossposts, Video Length, Sponsor Id, Sponsor Name, Sponsor Category, Overperforming Score, illuminating_scored_messageelection_integrity_Truth_illuminating, advocacy_msg_type_illuminating, issue_msg_type_illuminating, attack_msg_type_illuminating, image_msg_type_illuminating, cta_msg_type_illuminating, engagement_cta_subtype_illuminating, fundraising_cta_subtype_illuminating, voting_cta_subtype_illuminating, covid_topic_illuminating, economy_topic_illuminating, education_topic_illuminating, environment_topic_illuminating, foreign_policy_topic_illuminating, governance_topic_illuminating, health_topic_illuminating, immigration_topic_illuminating, lgbtq_issues_topic_illuminating, military_topic_illuminating, race_and_ethnicity_topic_illuminating, safety_topic_illuminating, social_and_cultural_topic_illuminating, technology_and_privacy_topic_illuminating, womens_issue_topic_illuminating, incivility_illuminating, scam_illuminating, freefair_illuminating, fraud_illuminating
+
+--- Overall describe() ---
+
+shape: (9, 57)
+┌────────────┬─────────────────────┬─────────────────────┬────────────────────┬───┬────────────────────┬───────────────────┬────────────────────┬────────────────────┐
+│ statistic  ┆ Facebook_Id         ┆ post_id             ┆ Page Category      ┆ … ┆ incivility_illumin ┆ scam_illuminating ┆ freefair_illuminat ┆ fraud_illuminating │
+│ ---        ┆ ---                 ┆ ---                 ┆ ---                ┆   ┆ ating              ┆ ---               ┆ ing                ┆ ---                │
+│ str        ┆ str                 ┆ str                 ┆ str                ┆   ┆ ---                ┆ f64               ┆ ---                ┆ f64                │
+│            ┆                     ┆                     ┆                    ┆   ┆ f64                ┆                   ┆ f64                ┆                    │
+╞════════════╪═════════════════════╪═════════════════════╪════════════════════╪═══╪════════════════════╪═══════════════════╪════════════════════╪════════════════════╡
+│ count      ┆ 19009               ┆ 19009               ┆ 19009              ┆ … ┆ 19009.0            ┆ 18060.0           ┆ 19009.0            ┆ 19009.0            │
+│ null_count ┆ 0                   ┆ 0                   ┆ 0                  ┆ … ┆ 0.0                ┆ 949.0             ┆ 0.0                ┆ 0.0                │
+│ mean       ┆ null                ┆ null                ┆ null               ┆ … ┆ 0.127887           ┆ 0.02021           ┆ 0.002841           ┆ 0.008627           │
+│ std        ┆ null                ┆ null                ┆ null               ┆ … ┆ 0.333972           ┆ 0.140723          ┆ 0.053224           ┆ 0.092485           │
+│ min        ┆ 058bd86861262fa7173 ┆ 0001e4a1dbadf84f0f4 ┆ ACTOR              ┆ … ┆ 0.0                ┆ 0.0               ┆ 0.0                ┆ 0.0                │
+│            ┆ 3f8515c34b7…        ┆ 3719972b605…        ┆                    ┆   ┆                    ┆                   ┆                    ┆                    │
+│ 25%        ┆ null                ┆ null                ┆ null               ┆ … ┆ 0.0                ┆ 0.0               ┆ 0.0                ┆ 0.0                │
+│ 50%        ┆ null                ┆ null                ┆ null               ┆ … ┆ 0.0                ┆ 0.0               ┆ 0.0                ┆ 0.0                │
+│ 75%        ┆ null                ┆ null                ┆ null               ┆ … ┆ 0.0                ┆ 0.0               ┆ 0.0                ┆ 0.0                │
+│ max        ┆ fedbfaab19b5112a688 ┆ ffff3f550f95017a77a ┆ YOUTH_ORGANIZATION ┆ … ┆ 1.0                ┆ 1.0               ┆ 1.0                ┆ 1.0                │
+│            ┆ 9b862314ca9…        ┆ 35388243b4f…        ┆                    ┆   ┆                    ┆                   ┆                    ┆                    │
+└────────────┴─────────────────────┴─────────────────────┴────────────────────┴───┴────────────────────┴───────────────────┴────────────────────┴────────────────────┘
+
+--- Unique Values per Column ---
+
+Facebook_Id: 21
+
+post_id: 19009
+
+Page Category: 7
+
+Page Admin Top Country: 2
+
+Post Created: 18951
+
+Post Created Date: 425
+
+Post Created Time: 16102
+
+Type: 10
+
+Total Interactions: 5665
+
+Likes: 4118
+
+Comments: 3075
+
+Shares: 1840
+
+Love: 1600
+
+Wow: 194
+
+Haha: 1154
+
+Sad: 239
+
+Angry: 423
+
+Care: 513
+
+Video Share Status: 4
+
+Is Video Owner?: 4
+
+Post Views: 2843
+
+Total Views: 2902
+
+Total Views For All Crossposts: 74
+
+Video Length: 775
+
+Sponsor Id: 1
+
+Sponsor Name: 1
+
+Sponsor Category: 1
+
+Overperforming Score: 2008
+
+illuminating_scored_messageelection_integrity_Truth_illuminating: 1
+
+advocacy_msg_type_illuminating: 2
+
+issue_msg_type_illuminating: 2
+
+attack_msg_type_illuminating: 2
+
+image_msg_type_illuminating: 2
+
+cta_msg_type_illuminating: 2
+
+engagement_cta_subtype_illuminating: 2
+
+fundraising_cta_subtype_illuminating: 2
+
+voting_cta_subtype_illuminating: 2
+
+covid_topic_illuminating: 2
+
+economy_topic_illuminating: 2
+
+education_topic_illuminating: 2
+
+environment_topic_illuminating: 2
+
+foreign_policy_topic_illuminating: 2
+
+governance_topic_illuminating: 2
+
+health_topic_illuminating: 2
+
+immigration_topic_illuminating: 2
+
+lgbtq_issues_topic_illuminating: 2
+
+military_topic_illuminating: 2
+
+race_and_ethnicity_topic_illuminating: 2
+
+safety_topic_illuminating: 2
+
+social_and_cultural_topic_illuminating: 2
+
+technology_and_privacy_topic_illuminating: 2
+
+womens_issue_topic_illuminating: 2
+
+incivility_illuminating: 2
+
+scam_illuminating: 3
+
+freefair_illuminating: 2
+
+fraud_illuminating: 2
+
+===== Script Completed =====
+

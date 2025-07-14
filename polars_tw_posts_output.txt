@@ -1,0 +1,126 @@
+===== Polars Descriptive Stats (Twitter Posts) =====
+
+--- Columns in Dataset ---
+
+id, url, source, retweetCount, replyCount, likeCount, quoteCount, viewCount, createdAt, lang, bookmarkCount, isReply, isRetweet, isQuote, isConversationControlled, quoteId, inReplyToId, month_year, illuminating_scored_message, election_integrity_Truth_illuminating, advocacy_msg_type_illuminating, issue_msg_type_illuminating, attack_msg_type_illuminating, image_msg_type_illuminating, cta_msg_type_illuminating, engagement_cta_subtype_illuminating, fundraising_cta_subtype_illuminating, voting_cta_subtype_illuminating, covid_topic_illuminating, economy_topic_illuminating, education_topic_illuminating, environment_topic_illuminating, foreign_policy_topic_illuminating, governance_topic_illuminating, health_topic_illuminating, immigration_topic_illuminating, lgbtq_issues_topic_illuminating, military_topic_illuminating, race_and_ethnicity_topic_illuminating, safety_topic_illuminating, social_and_cultural_topic_illuminating, technology_and_privacy_topic_illuminating, womens_issue_topic_illuminating, incivility_illuminating, scam_illuminating, freefair_illuminating, fraud_illuminating
+
+--- Overall describe() ---
+
+shape: (9, 48)
+┌────────────┬─────────────────────┬─────────────────────┬────────────────────┬───┬────────────────────┬───────────────────┬────────────────────┬────────────────────┐
+│ statistic  ┆ id                  ┆ url                 ┆ source             ┆ … ┆ incivility_illumin ┆ scam_illuminating ┆ freefair_illuminat ┆ fraud_illuminating │
+│ ---        ┆ ---                 ┆ ---                 ┆ ---                ┆   ┆ ating              ┆ ---               ┆ ing                ┆ ---                │
+│ str        ┆ str                 ┆ str                 ┆ str                ┆   ┆ ---                ┆ f64               ┆ ---                ┆ f64                │
+│            ┆                     ┆                     ┆                    ┆   ┆ f64                ┆                   ┆ f64                ┆                    │
+╞════════════╪═════════════════════╪═════════════════════╪════════════════════╪═══╪════════════════════╪═══════════════════╪════════════════════╪════════════════════╡
+│ count      ┆ 27304               ┆ 27304               ┆ 27304              ┆ … ┆ 26034.0            ┆ 26034.0           ┆ 27304.0            ┆ 27304.0            │
+│ null_count ┆ 0                   ┆ 0                   ┆ 0                  ┆ … ┆ 1270.0             ┆ 1270.0            ┆ 0.0                ┆ 0.0                │
+│ mean       ┆ null                ┆ null                ┆ null               ┆ … ┆ 0.178574           ┆ 0.012368          ┆ 0.001428           ┆ 0.002747           │
+│ std        ┆ null                ┆ null                ┆ null               ┆ … ┆ 0.383003           ┆ 0.110526          ┆ 0.037767           ┆ 0.052339           │
+│ min        ┆ 0000635d0c9e7bdf89d ┆ 0000179c6b90798f167 ┆ Canva              ┆ … ┆ 0.0                ┆ 0.0               ┆ 0.0                ┆ 0.0                │
+│            ┆ fc13811d080…        ┆ 528aaaaf678…        ┆                    ┆   ┆                    ┆                   ┆                    ┆                    │
+│ 25%        ┆ null                ┆ null                ┆ null               ┆ … ┆ 0.0                ┆ 0.0               ┆ 0.0                ┆ 0.0                │
+│ 50%        ┆ null                ┆ null                ┆ null               ┆ … ┆ 0.0                ┆ 0.0               ┆ 0.0                ┆ 0.0                │
+│ 75%        ┆ null                ┆ null                ┆ null               ┆ … ┆ 0.0                ┆ 0.0               ┆ 0.0                ┆ 0.0                │
+│ max        ┆ fffbb471d8b0bd6d990 ┆ ffffd63fa71574c0127 ┆ Twitter for iPhone ┆ … ┆ 1.0                ┆ 1.0               ┆ 1.0                ┆ 1.0                │
+│            ┆ b4f9f22283b…        ┆ b90e12fdba3…        ┆                    ┆   ┆                    ┆                   ┆                    ┆                    │
+└────────────┴─────────────────────┴─────────────────────┴────────────────────┴───┴────────────────────┴───────────────────┴────────────────────┴────────────────────┘
+
+--- Unique Values per Column ---
+
+id: 27304
+
+url: 27304
+
+source: 14
+
+retweetCount: 5197
+
+replyCount: 4517
+
+likeCount: 10202
+
+quoteCount: 1346
+
+viewCount: 25369
+
+createdAt: 27014
+
+lang: 12
+
+bookmarkCount: 1440
+
+isReply: 2
+
+isRetweet: 1
+
+isQuote: 2
+
+isConversationControlled: 2
+
+quoteId: 3160
+
+inReplyToId: 3310
+
+month_year: 15
+
+illuminating_scored_message: 27136
+
+election_integrity_Truth_illuminating: 3
+
+advocacy_msg_type_illuminating: 3
+
+issue_msg_type_illuminating: 3
+
+attack_msg_type_illuminating: 3
+
+image_msg_type_illuminating: 3
+
+cta_msg_type_illuminating: 3
+
+engagement_cta_subtype_illuminating: 3
+
+fundraising_cta_subtype_illuminating: 3
+
+voting_cta_subtype_illuminating: 3
+
+covid_topic_illuminating: 3
+
+economy_topic_illuminating: 3
+
+education_topic_illuminating: 3
+
+environment_topic_illuminating: 3
+
+foreign_policy_topic_illuminating: 3
+
+governance_topic_illuminating: 3
+
+health_topic_illuminating: 3
+
+immigration_topic_illuminating: 3
+
+lgbtq_issues_topic_illuminating: 3
+
+military_topic_illuminating: 3
+
+race_and_ethnicity_topic_illuminating: 3
+
+safety_topic_illuminating: 3
+
+social_and_cultural_topic_illuminating: 3
+
+technology_and_privacy_topic_illuminating: 3
+
+womens_issue_topic_illuminating: 3
+
+incivility_illuminating: 3
+
+scam_illuminating: 3
+
+freefair_illuminating: 2
+
+fraud_illuminating: 2
+
+===== Script Completed =====
+
